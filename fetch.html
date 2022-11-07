@@ -1,0 +1,46 @@
+<link href = "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel = "stylesheet">
+
+<style>
+
+    button:hover, button:focus {
+    outline: none;
+    }
+    .hover\:bg-black:hover {
+        background-color: #1e1e1e;
+    }
+    .text-lg {
+        border: 2.5px solid rgba(0, 255, 242,0.75);
+        background-color: rgb(55, 55, 55);
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .text-base {
+        color: rgba(0, 255, 242,0.85);
+    }
+    .text-2xl {
+        color:rgb(180, 255, 248)
+    }
+
+</style>
+
+<body style = "background-image: url('https://wallpaperboat.com/wp-content/uploads/2022/03/14/81028/low-poly-mountain-11.jpg');">
+    <div>
+        <p class = " font-bold text-6xl text-white text-left ml-8 mt-10">I understand...</p>
+        <p class = " text-sm text-white text-left ml-8">why you're here. I understand because I've been low enough to try and help others come out of it.<br>Yes we're strangers, Yes it's going to be a long and a hard journey and NO I have no idea what's keeping you low.<br>But believe me when I tell you that it's going to be okay you'll someday be glad abt using this API.<br><br>I've created this as a very small attempt to nudge you to keep on going, to keep on trying and to never look back.<br>Kindly click on the " I'm Ready " button to generate a bunch of words that have helped me to keep going.<br>You might even want to look at other works by the poets and thinkers.<br><br>I believe in you!</p>
+        <p class = " font-bold text-sm text-white text-left ml-8">GO DO GREAT THINGS!</p>
+    </div>
+    <div class = "ml-6 mt-3">
+        <button onclick = "fetchdata()" class = "text-lg font-bold rounded-lg hover:bg-black text-white" id = "btn"><p class = " ml-2 mr-2">I'm Ready!</p></button>
+        <div id = "content" class = " font-bold text-2xl text-white ml-3 leading-loose mt-4">
+
+        </div>
+        
+        <div id = "author" class = " font-bold text-base ml-3 leading-tight">
+
+        </div>
+    </div>
+</body>
+
+<script src = "./work.js" ></script>
+
+
